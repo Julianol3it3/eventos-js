@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: nome;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background: royalblue;
+}
+
+section {
+  width: 40vw;
+}
+
+.content {
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  background: crimson;
+}
+
+.exercicio-1 {
+  background: black;
+  width: 10rem;
+}
+
+.exemplo2 {
+  width: 5rem;
+  background: black;
+  transform: rotate(20deg);
+}
+
+.exercicio-4 {
+  background: black ;
+}
